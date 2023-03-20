@@ -1,0 +1,4 @@
+# Created at 2023-03-20T12:46:49.482
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

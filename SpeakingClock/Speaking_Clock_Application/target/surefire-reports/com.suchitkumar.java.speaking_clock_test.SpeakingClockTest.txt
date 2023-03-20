@@ -1,0 +1,101 @@
+-------------------------------------------------------------------------------
+Test set: com.suchitkumar.java.speaking_clock_test.SpeakingClockTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 0.105 s <<< FAILURE! - in com.suchitkumar.java.speaking_clock_test.SpeakingClockTest
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsAmTime  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's eight thirty four")
+     got: "08:34"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsAmTime(SpeakingClockTest.java:31)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMidnight  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's Midnight")
+     got: "00:00"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMidnight(SpeakingClockTest.java:40)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMidday  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's Midday")
+     got: "12:00"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMidday(SpeakingClockTest.java:49)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustBeforeMidnight  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's twenty three fifty nine")
+     got: "23:59"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustBeforeMidnight(SpeakingClockTest.java:58)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustAfterMidnight  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's zero one")
+     got: "00:01"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustAfterMidnight(SpeakingClockTest.java:67)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustAfterMidday  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's twelve one")
+     got: "12:01"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustAfterMidday(SpeakingClockTest.java:85)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustBeforeMidday  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's eleven fifty nine")
+     got: "11:59"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustBeforeMidday(SpeakingClockTest.java:76)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsInvalidHours  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsBlankHours  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMinutesLessRange  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsBlankMinutes  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsBlankTime  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsHoursMoreThanRange  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsInvalidMinutes  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsHoursLessRange  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsOnePm  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's thirteen zero")
+     got: "13:00"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsOnePm(SpeakingClockTest.java:94)
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsTimeWithOneDigitLess  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsTimeWithoutSeparator  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+
+com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMinutesMoreThanRange  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+

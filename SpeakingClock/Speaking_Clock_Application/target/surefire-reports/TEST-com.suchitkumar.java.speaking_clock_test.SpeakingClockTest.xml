@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.105" tests="19" errors="0" skipped="0" failures="19">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application\target\test-classes;D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application\target\classes;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.4\junit-4.4.jar;C:\Users\ADMIN\.m2\repository\org\assertj\assertj-core\3.5.2\assertj-core-3.5.2.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire3715017984056182698\surefirebooter7357285425141839652.jar C:\Users\ADMIN\AppData\Local\Temp\surefire3715017984056182698 2023-03-20T12-46-47_250-jvmRun1 surefire2560655151430818993tmp surefire_07472552568905941200tmp"/>
+    <property name="test" value="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest"/>
+    <property name="surefire.test.class.path" value="D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application\target\test-classes;D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application\target\classes;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.4\junit-4.4.jar;C:\Users\ADMIN\.m2\repository\org\assertj\assertj-core\3.5.2\assertj-core-3.5.2.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="basedir" value="D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire3715017984056182698\surefirebooter7357285425141839652.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\ADMIN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="D:\Suchitkumar_Shah_Java_Projects\Speaking_Clock_Application"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache_maven\apache_maven\bin;%Apache_Mavne%\bin;C:\Program Files\Java\jdk1.8.0_201\bin;%Java_Home%\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="convertReturnsAmTime" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.032">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s eight thirty four&quot;)&#10;     got: &quot;08:34&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's eight thirty four")
+     got: "08:34"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsAmTime(SpeakingClockTest.java:31)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsMidnight" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s Midnight&quot;)&#10;     got: &quot;00:00&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's Midnight")
+     got: "00:00"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMidnight(SpeakingClockTest.java:40)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsMidday" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s Midday&quot;)&#10;     got: &quot;12:00&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's Midday")
+     got: "12:00"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsMidday(SpeakingClockTest.java:49)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsJustBeforeMidnight" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s twenty three fifty nine&quot;)&#10;     got: &quot;23:59&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's twenty three fifty nine")
+     got: "23:59"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustBeforeMidnight(SpeakingClockTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsJustAfterMidnight" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.003">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s zero one&quot;)&#10;     got: &quot;00:01&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's zero one")
+     got: "00:01"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustAfterMidnight(SpeakingClockTest.java:67)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsJustAfterMidday" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.003">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s twelve one&quot;)&#10;     got: &quot;12:01&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's twelve one")
+     got: "12:01"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustAfterMidday(SpeakingClockTest.java:85)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsJustBeforeMidday" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.003">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s eleven fifty nine&quot;)&#10;     got: &quot;11:59&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's eleven fifty nine")
+     got: "11:59"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsJustBeforeMidday(SpeakingClockTest.java:76)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsInvalidHours" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.002">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsBlankHours" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsMinutesLessRange" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsBlankMinutes" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsBlankTime" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsHoursMoreThanRange" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsInvalidMinutes" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsHoursLessRange" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsOnePm" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.002">
+    <failure message="&#10;Expected: is (not null and an instance of java.lang.String and &quot;It&apos;s thirteen zero&quot;)&#10;     got: &quot;13:00&quot;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is (not null and an instance of java.lang.String and "It's thirteen zero")
+     got: "13:00"
+
+	at com.suchitkumar.java.speaking_clock_test.SpeakingClockTest.convertReturnsOnePm(SpeakingClockTest.java:94)
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsTimeWithOneDigitLess" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsTimeWithoutSeparator" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.002">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+  <testcase name="convertReturnsMinutesMoreThanRange" classname="com.suchitkumar.java.speaking_clock_test.SpeakingClockTest" time="0.001">
+    <failure message="Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected exception: com.suchitkumar.java.speaking_clock_application.Exception.SpeakingClockTimeException
+]]></failure>
+  </testcase>
+</testsuite>
